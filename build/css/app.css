@@ -460,4 +460,7 @@ h3 {
     width: auto;
   }
 }
+.navegacion__link:hover {
+  color: rebeccapurple;
+}
 /*# sourceMappingURL=app.css.map */
