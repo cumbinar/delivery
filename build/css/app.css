@@ -412,4 +412,10 @@ h3 {
 .header__logo {
   width: 30rem;
 }
+
+.navegacion__link {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+}
 /*# sourceMappingURL=app.css.map */
