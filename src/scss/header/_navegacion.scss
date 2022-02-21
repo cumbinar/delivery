@@ -20,7 +20,7 @@
        //font-weight: 700;
        color: v.$negro;
        padding: 1.3rem;
-        border: .1rem solid v.$primario;
+       border: .1rem solid v.$primario;
 
 
        &:hover{
@@ -33,7 +33,8 @@
             padding: 1.3rem;
             
             &:hover{
-            color: blue;
+            color: v.$negro;
+           
             }
         }
      // &--registrar{
