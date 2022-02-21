@@ -434,33 +434,19 @@ h3 {
 }
 .navegacion__link {
   font-size: 2rem;
-  font-weight: 700;
   color: #000;
+  padding: 1.3rem;
+  border: 0.1rem solid #e8505b;
+}
+.navegacion__link:hover {
+  color: #e8505b;
 }
 .navegacion__link--registrar {
   background-color: #e8505b;
-  font-size: 2rem;
-  padding: 1.2rem 3rem;
-  border-radius: 1rem;
-  font-weight: 700;
-  display: block;
-  width: 100%;
-  text-align: center;
   color: #FFFFFF;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-  border: none;
+  padding: 1.3rem;
 }
 .navegacion__link--registrar:hover {
-  cursor: pointer;
-  background-color: #e22331;
-}
-@media (min-width: 768px) {
-  .navegacion__link--registrar {
-    width: auto;
-  }
-}
-.navegacion__link:hover {
-  color: rebeccapurple;
+  color: blue;
 }
 /*# sourceMappingURL=app.css.map */

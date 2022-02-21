@@ -17,16 +17,29 @@
 
         &__link{
        font-size: 2rem;
-       font-weight: 700;
+       //font-weight: 700;
        color: v.$negro;
+       padding: 1.3rem;
+        border: .1rem solid v.$primario;
 
-       &--registrar{
-        @include m.boton(v.$primario, v.$blanco)
-        
-       }
-         &:hover{
-            color: rebeccapurple;
+
+       &:hover{
+            color: v.$primario;
         }
+
+        &--registrar{
+            background-color: v.$primario;
+            color: v.$blanco;
+            padding: 1.3rem;
+            
+            &:hover{
+            color: blue;
+            }
+        }
+     // &--registrar{
+       // @include m.boton(v.$primario, v.$blanco)
+         
+      //}
       
     }
 }
