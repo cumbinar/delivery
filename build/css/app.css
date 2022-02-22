@@ -449,4 +449,20 @@ h3 {
 .navegacion__link--registrar:hover {
   color: #000;
 }
+
+@media (min-width: 768px) {
+  .formulario__grid {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.formulario__imagen-contenedor {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+.formulario__imagen {
+  width: 30rem;
+}
 /*# sourceMappingURL=app.css.map */
