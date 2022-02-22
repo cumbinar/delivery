@@ -457,6 +457,9 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+.formulario__contenido {
+  background-color: #e8505b;
+}
 .formulario__imagen-contenedor {
   margin-top: 5rem;
   display: flex;
@@ -464,5 +467,10 @@ h3 {
 }
 .formulario__imagen {
   width: 30rem;
+}
+@media (min-width: 1024px) {
+  .formulario__imagen {
+    whidth: 100%;
+  }
 }
 /*# sourceMappingURL=app.css.map */

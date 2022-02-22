@@ -2,10 +2,19 @@
 @use 'base/mixins' as m;
 
 .formulario{
+
     &__grid {
         @include m.tablet { 
             @include m.grid(2, v.$separacion)
          }
+    }
+
+    &__contenido{
+        background-color: v.$primario;
+    }
+
+    &__heading{
+
     }
 
     &__imagen-contenedor{
@@ -18,5 +27,8 @@
 
     &__imagen {
         width: 30rem;
+        @include m.desktop { 
+            whidth: 100%
+         }
     }
 }
