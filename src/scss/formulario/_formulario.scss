@@ -11,9 +11,32 @@
 
     &__contenido{
         background-color: v.$primario;
+        padding: v.$separacion;
     }
 
     &__heading{
+        color: v.$blanco;
+        text-align: center;
+    }
+
+    &__campo{
+        margin-bottom: 1rem;
+    }
+
+    &__label{
+        display: block;
+        text-transform: uppercase;
+        color: v.$blanco; 
+        margin: 1rem 0;   
+    }
+
+    &__input{
+       width: 100%;
+       padding: 1.3rem; 
+       border: none;
+    }
+
+    &__submit{
 
     }
 
