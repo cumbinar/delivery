@@ -557,4 +557,8 @@ h3 {
   -webkit-transform: rotate(-4deg) scale(1.1);
           transform: rotate(-4deg) scale(1.1);
 }
+
+.testimonial__imagen {
+  border-radius: 50%;
+}
 /*# sourceMappingURL=app.css.map */
