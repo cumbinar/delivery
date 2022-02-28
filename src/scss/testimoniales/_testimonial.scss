@@ -6,8 +6,22 @@
     background-color: v.$secundario;
     padding: 2rem;
     margin-bottom: 2rem;
+    border-radius: 1.5rem;
+    color: v.$blanco;
 
     &:last-of-type {
         margin-bottom: 0;
+    }
+
+    &__header{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    &__imagen{
+        flex-basis: 10rem;
+        border-radius: 50%;
+        overflow: hidden;
     }
 }
