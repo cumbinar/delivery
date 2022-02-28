@@ -24,4 +24,26 @@
         border-radius: 50%;
         overflow: hidden;
     }
+
+    &__autor{
+        color: v.$blanco;
+        margin: .5rem 0;
+    }
+
+    &__texto{
+       font-size: 1.5rem;
+       line-height: 1.5rem;margin: 2rem 0 0 0;
+       padding-left: 4rem; 
+       position: relative;
+
+       &::before{
+
+        content: ' " ';
+        font-size: 7rem;
+        position: absolute;
+        left: 0;
+        top: 2rem;
+        opacity: .2;
+       }
+    }
 }
