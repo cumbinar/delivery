@@ -558,7 +558,16 @@ h3 {
           transform: rotate(-4deg) scale(1.1);
 }
 
-.testimonial__imagen {
-  border-radius: 50%;
+.testimoniales {
+  padding: 5rem 0;
+}
+
+.testimonial {
+  background-color: #455a64;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.testimonial:last-of-type {
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=app.css.map */

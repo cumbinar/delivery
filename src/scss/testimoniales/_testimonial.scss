@@ -3,8 +3,11 @@
 
 
 .testimonial{
+    background-color: v.$secundario;
+    padding: 2rem;
+    margin-bottom: 2rem;
 
-    &__imagen{
-        border-radius: 50%;
+    &:last-of-type {
+        margin-bottom: 0;
     }
 }
