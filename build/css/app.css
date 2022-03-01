@@ -561,6 +561,9 @@ h3 {
 .testimoniales {
   padding: 5rem 0;
 }
+.testimoniales__heading {
+  text-align: center;
+}
 
 .testimonial {
   background-color: #455a64;

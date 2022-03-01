@@ -3,4 +3,8 @@
 
 .testimoniales{
     padding: v.$separacion 0;
+
+    &__heading{
+        text-align: center;
+    }
 }
