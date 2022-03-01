@@ -564,6 +564,13 @@ h3 {
 .testimoniales__heading {
   text-align: center;
 }
+@media (min-width: 768px) {
+  .testimoniales__grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
 
 .testimonial {
   background-color: #455a64;
