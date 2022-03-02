@@ -631,4 +631,8 @@ h3 {
   top: 2rem;
   opacity: 0.2;
 }
+
+.favoritos {
+  background-color: red;
+}
 /*# sourceMappingURL=app.css.map */
