@@ -692,7 +692,8 @@ h3 {
 }
 .favoritos__heading {
   text-align: center;
-  color: #455a64;
+  color: #e8505b;
+  text-shadow: 0.5px 1px black;
 }
 @media (min-width: 768px) {
   .favoritos__grid {
