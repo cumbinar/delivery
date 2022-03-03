@@ -634,5 +634,17 @@ h3 {
 
 .favoritos {
   background-color: #eceeef;
+  padding: 5rem 0;
+}
+.favoritos__heading {
+  text-align: center;
+  color: #455a64;
+}
+@media (min-width: 768px) {
+  .favoritos__grid {
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 /*# sourceMappingURL=app.css.map */
