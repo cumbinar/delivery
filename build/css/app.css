@@ -739,7 +739,7 @@ h3 {
 .repartidores__enlace {
   background-color: #e8505b;
   color: #FFFFFF;
-  padding: 1.3rem;
+  padding: 1.3rem 5rem;
 }
 .repartidores__enlace:hover {
   color: #000;
