@@ -26,7 +26,13 @@
     }
 
     &__enlace{
-        
-
-    }
+            background-color: v.$primario;
+            color: v.$blanco;
+            padding: 1.3rem;
+            
+            &:hover{
+            color: v.$negro;
+           
+            }
+        }
 }
