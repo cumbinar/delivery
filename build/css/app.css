@@ -719,4 +719,9 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+.repartidores__texto {
+  font-size: 1.7rem;
+  line-height: 2rem;
+  color: #455a64;
+}
 /*# sourceMappingURL=app.css.map */

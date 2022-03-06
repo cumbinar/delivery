@@ -14,4 +14,19 @@
             @include m.grid(2, v.$separacion)
          }
     }
+
+    &__contenido{
+
+    }
+
+    &__texto{
+        font-size: 1.7rem;
+        line-height: 2rem;
+        color: v.$secundario;
+    }
+
+    &__enlace{
+        
+
+    }
 }
