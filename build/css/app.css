@@ -703,4 +703,13 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.repartidores {
+  padding: 5rem 0;
+}
+.repartidores__heading {
+  text-align: center;
+  color: #e8505b;
+  text-shadow: 0.5px 1px black;
+}
 /*# sourceMappingURL=app.css.map */
