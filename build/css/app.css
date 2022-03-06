@@ -719,6 +719,18 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+.repartidores__contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .repartidores__contenido {
+    justify-content: center;
+  }
+}
 .repartidores__texto {
   font-size: 1.7rem;
   line-height: 2rem;

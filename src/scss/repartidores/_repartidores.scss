@@ -16,7 +16,15 @@
     }
 
     &__contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        width: 100%;
 
+        @include m.tablet { 
+            justify-content: center;
+         }
     }
 
     &__texto{
