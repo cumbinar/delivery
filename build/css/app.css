@@ -712,4 +712,11 @@ h3 {
   color: #e8505b;
   text-shadow: 0.5px 1px black;
 }
+@media (min-width: 768px) {
+  .repartidores__grid {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 /*# sourceMappingURL=app.css.map */
