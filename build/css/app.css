@@ -759,5 +759,13 @@ h3 {
 .descargar__imagen {
   width: 50%;
   margin: 0 auto;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  transition-duration: 300ms;
+}
+.descargar__imagen:hover {
+  -webkit-transform: rotate(2deg) scale(1.1);
+          transform: rotate(2deg) scale(1.1);
 }
 /*# sourceMappingURL=app.css.map */
