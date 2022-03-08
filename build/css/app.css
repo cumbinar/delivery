@@ -775,6 +775,10 @@ h3 {
   flex-direction: column;
   justify-content: center;
 }
+.tiendas__imagen {
+  width: 90%;
+  margin: 0 auto;
+}
 .tiendas__texto {
   text-align: center;
   margin-bottom: 3rem;
@@ -789,5 +793,15 @@ h3 {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(2, 1fr);
+}
+.tiendas__enlace {
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  transition-duration: 300ms;
+}
+.tiendas__enlace:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=app.css.map */
