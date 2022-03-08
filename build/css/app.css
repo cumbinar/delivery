@@ -744,4 +744,20 @@ h3 {
 .repartidores__enlace:hover {
   color: #000;
 }
+
+.descargar {
+  background-color: #eceeef;
+  padding: 5rem 0;
+}
+@media (min-width: 768px) {
+  .descargar__grid {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.descargar__imagen {
+  width: 50%;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=app.css.map */
