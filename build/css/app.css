@@ -767,5 +767,27 @@ h3 {
 .descargar__imagen:hover {
   -webkit-transform: rotate(2deg) scale(1.1);
           transform: rotate(2deg) scale(1.1);
+  cursor: pointer;
+}
+
+.tiendas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tiendas__texto {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.tiendas__heading {
+  text-align: center;
+  color: #e8505b;
+  margin: 2rem 0 0 0;
+  text-shadow: 0.5px 1px black;
+}
+.tiendas__grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
 }
 /*# sourceMappingURL=app.css.map */

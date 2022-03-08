@@ -2,5 +2,23 @@
 @use 'base/mixins' as m;
 
 .tiendas{
-    
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+
+  &__texto{
+      text-align: center;
+      margin-bottom: 3rem;
+  }
+
+  &__heading{
+        text-align: center;
+        color: v.$primario;
+        margin: 2rem 0 0 0;
+        text-shadow: .5px 1px rgb(0, 0, 0);
+    }
+
+  &__grid{
+      @include m.grid(2, 2rem)   
+   }
 }
