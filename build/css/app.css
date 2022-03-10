@@ -810,6 +810,14 @@ h3 {
 }
 
 .footer {
-  background-color: red;
+  background-color: #455a64;
+  padding-top: 5rem;
+}
+@media (min-width: 768px) {
+  .footer__grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 /*# sourceMappingURL=app.css.map */

@@ -2,5 +2,11 @@
 @use 'base/mixins' as m;
 
 .footer{
-    background-color: red;
+    background-color: v.$secundario;
+    padding-top: v.$separacion;
+    &__grid{
+        @include m.tablet { 
+            @include m.grid(3, 1rem);
+         }
+    }
 }
