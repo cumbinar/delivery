@@ -808,4 +808,8 @@ h3 {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
+
+.footer {
+  background-color: red;
+}
 /*# sourceMappingURL=app.css.map */
