@@ -6,6 +6,8 @@
     padding: v.$separacion 0;
 
    &__grid{
+
+    display: flex;flex-direction: column-reverse;
     @include m.tablet { 
         @include m.grid(2, v.$separacion)
      }
@@ -13,7 +15,7 @@
 
    &__imagen{
        width: 50%;
-       margin: 0 auto;
+       margin: 10rem auto 0 auto;
        transition-property: transform;
        transition-duration: 300ms;
 

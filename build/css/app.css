@@ -749,6 +749,10 @@ h3 {
   background-color: #eceeef;
   padding: 5rem 0;
 }
+.descargar__grid {
+  display: flex;
+  flex-direction: column-reverse;
+}
 @media (min-width: 768px) {
   .descargar__grid {
     display: grid;
@@ -758,7 +762,7 @@ h3 {
 }
 .descargar__imagen {
   width: 50%;
-  margin: 0 auto;
+  margin: 10rem auto 0 auto;
   transition-property: -webkit-transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
