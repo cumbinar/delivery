@@ -20,7 +20,6 @@
 
     &__heading{
         color:v.$blanco;
-        margin: 0 0 0 0;
         text-align: center;
 
         @include m.tablet { 
@@ -30,7 +29,7 @@
 
     &__nav{
         display: flex;
-        flex-direction: column;   
+        flex-direction: column;  
     }
 
     &__nav,
@@ -54,17 +53,21 @@
     }
 
     &__link:hover{
-
-       color: red;
+        background-color: black;
     }
 
+    &__final{
+        background-color: v.$primario;
+        padding-top: 2rem;
+    }
     &__copyright{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         color: black;
+        line-height: 0.5rem;
         text-align: center;
        
         &:last-of-type{
-            padding-bottom: 5rem;
+            padding-bottom: 2.5rem;
         }
     }
 }

@@ -828,7 +828,6 @@ h3 {
 }
 .footer__heading {
   color: #FFFFFF;
-  margin: 0 0 0 0;
   text-align: center;
 }
 @media (min-width: 768px) {
@@ -857,14 +856,19 @@ h3 {
   }
 }
 .footer__link:hover {
-  color: red;
+  background-color: black;
+}
+.footer__final {
+  background-color: #e8505b;
+  padding-top: 2rem;
 }
 .footer__copyright {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: black;
+  line-height: 0.5rem;
   text-align: center;
 }
 .footer__copyright:last-of-type {
-  padding-bottom: 5rem;
+  padding-bottom: 2.5rem;
 }
 /*# sourceMappingURL=app.css.map */
