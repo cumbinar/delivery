@@ -820,4 +820,51 @@ h3 {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+.footer__widget {
+  margin-bottom: 5rem;
+}
+.footer__widget:last-of-type {
+  margin-bottom: 0;
+}
+.footer__heading {
+  color: #FFFFFF;
+  margin: 0 0 0 0;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .footer__heading {
+    text-align: left;
+  }
+}
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+}
+.footer__nav, .footer__texto {
+  margin-top: 2.5rem;
+}
+.footer__texto {
+  margin-bottom: 5rem;
+}
+.footer__texto, .footer__link {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .footer__texto, .footer__link {
+    text-align: left;
+  }
+}
+.footer__link:hover {
+  color: red;
+}
+.footer__copyright {
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+}
+.footer__copyright:last-of-type {
+  padding-bottom: 5rem;
+}
 /*# sourceMappingURL=app.css.map */
